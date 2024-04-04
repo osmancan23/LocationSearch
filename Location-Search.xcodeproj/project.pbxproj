@@ -91,10 +91,17 @@
 		812C8AA02BBED06F006FCFA8 /* CellView */ = {
 			isa = PBXGroup;
 			children = (
-				812C8AA22BBED0CA006FCFA8 /* PlaceCell.swift */,
 				812C8AA32BBED0CA006FCFA8 /* PlaceCell.xib */,
 			);
 			path = CellView;
+			sourceTree = "<group>";
+		};
+		812C8AA62BBED2A5006FCFA8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				812C8AA22BBED0CA006FCFA8 /* PlaceCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		CD136F892BBC537000307ADE = {
@@ -160,6 +167,7 @@
 		CD136FC62BBC54BB00307ADE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				812C8AA62BBED2A5006FCFA8 /* Cell */,
 				CDC3335F2BBD8DD5002D4951 /* Place */,
 				CDC3335E2BBD8DC7002D4951 /* Search */,
 				CDC3335D2BBD8DBA002D4951 /* LocationSelection */,

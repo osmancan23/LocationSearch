@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812C8AA42BBED0CA006FCFA8 /* PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812C8AA32BBED0CA006FCFA8 /* PlaceCell.xib */; };
+		812C8AA52BBED0CA006FCFA8 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C8AA22BBED0CA006FCFA8 /* PlaceCell.swift */; };
 		CD136F962BBC537000307ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F952BBC537000307ADE /* AppDelegate.swift */; };
 		CD136F982BBC537000307ADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F972BBC537000307ADE /* SceneDelegate.swift */; };
 		CD136F9D2BBC537000307ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD136F9B2BBC537000307ADE /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		812C8AA22BBED0CA006FCFA8 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		812C8AA32BBED0CA006FCFA8 /* PlaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceCell.xib; sourceTree = "<group>"; };
 		CD136F922BBC537000307ADE /* Location-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD136F952BBC537000307ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD136F972BBC537000307ADE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		812C8AA02BBED06F006FCFA8 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				812C8AA22BBED0CA006FCFA8 /* PlaceCell.swift */,
+				812C8AA32BBED0CA006FCFA8 /* PlaceCell.xib */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
 		CD136F892BBC537000307ADE = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		CD136F942BBC537000307ADE /* Location-Search */ = {
 			isa = PBXGroup;
 			children = (
+				812C8AA02BBED06F006FCFA8 /* CellView */,
 				CD136FC62BBC54BB00307ADE /* View */,
 				CD136FC52BBC54AD00307ADE /* Base */,
 				CD136F9B2BBC537000307ADE /* Main.storyboard */,
@@ -294,6 +308,7 @@
 				CD136FA22BBC537100307ADE /* LaunchScreen.storyboard in Resources */,
 				CD136F9F2BBC537100307ADE /* Assets.xcassets in Resources */,
 				CD136F9D2BBC537000307ADE /* Main.storyboard in Resources */,
+				812C8AA42BBED0CA006FCFA8 /* PlaceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +340,7 @@
 				CD136F962BBC537000307ADE /* AppDelegate.swift in Sources */,
 				CD136F982BBC537000307ADE /* SceneDelegate.swift in Sources */,
 				CDC333692BBD8E15002D4951 /* MapViewController.swift in Sources */,
+				812C8AA52BBED0CA006FCFA8 /* PlaceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

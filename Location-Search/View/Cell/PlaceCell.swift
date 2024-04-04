@@ -13,17 +13,24 @@ class PlaceCell: UITableViewCell {
     @IBOutlet weak var placeNameLabel: UILabel!
     @IBOutlet weak var placeDetailLabel: UILabel!
     @IBOutlet weak var placeDetailButton: UIButton!
+    
+    static let identifier = "placeCell"
+    
+    static func nib() -> UINib{
+        return UINib(nibName: "PlaceCell", bundle: nil)
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     @IBAction func viewDetailTapped(_ sender: UIButton) {
+        //TODO: Send to Place Detail Screen with datas (İd ??)
     }
 }

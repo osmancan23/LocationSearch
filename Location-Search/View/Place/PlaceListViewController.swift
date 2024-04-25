@@ -8,22 +8,36 @@
 import UIKit
 
 class PlaceListViewController: UIViewController {
-
+    //var placeArray = [Place]()
+    @IBOutlet weak var searchbarView: UISearchBar!
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(PlaceCell.nib(), forCellReuseIdentifier: PlaceCell.identifier)
+        tableView.separatorColor = .clear
+        searchbarView.delegate = self
+    }
+}
 
-        // Do any additional setup after loading the view.
+//MARK: - TableView Delegate and DataSource
+extension PlaceListViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: PlaceCell.identifier, for: indexPath) as! PlaceCell
+        cell.placeNameLabel.text = "Place \(indexPath.row)"
+        cell.placeDetailImage.image = .randomCafe
+        return cell
     }
-    */
+}
 
+extension PlaceListViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        //TODO: Arraydeki elemanlardan isim araması yapıp tableView'ı reload edicek
+    }
 }

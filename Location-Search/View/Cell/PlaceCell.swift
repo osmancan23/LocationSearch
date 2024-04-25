@@ -9,7 +9,7 @@ import UIKit
 
 class PlaceCell: UITableViewCell {
 
-    @IBOutlet weak var placeImageView: UIImageView!
+    @IBOutlet weak var placeDetailImage: UIImageView!
     @IBOutlet weak var placeNameLabel: UILabel!
     @IBOutlet weak var placeDetailLabel: UILabel!
     @IBOutlet weak var placeDetailButton: UIButton!
@@ -24,6 +24,7 @@ class PlaceCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         selectionStyle = .none
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

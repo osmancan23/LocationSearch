@@ -30,7 +30,7 @@ extension PlaceListViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: PlaceCell.identifier, for: indexPath) as! PlaceCell
-        cell.placeNameLabel.text = "Place \(indexPath.row)"
+        cell.placeNameLabel.text = "Place \(indexPath.row + 1)"
         cell.placeDetailImage.image = .randomCafe
         return cell
     }

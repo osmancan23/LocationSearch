@@ -21,25 +21,25 @@
                         <rect key="frame" x="16" y="16" width="416" height="380"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ytg-IX-fgv">
-                                <rect key="frame" x="8" y="0.0" width="400" height="200"/>
+                                <rect key="frame" x="8" y="8" width="400" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ytg-IX-fgv" secondAttribute="height" multiplier="2:1" id="bzy-sD-UuP"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Uj-Pl-Bsn">
-                                <rect key="frame" x="16" y="212" width="384" height="24"/>
+                                <rect key="frame" x="16" y="220" width="384" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="A warm and inviting cafe serving freshly brewed cofee and pasteries" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPt-Jn-f7Z">
-                                <rect key="frame" x="16" y="247.99999999999997" width="384" height="33.666666666666657"/>
+                                <rect key="frame" x="16" y="255.99999999999997" width="384" height="33.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC6-W5-6sC">
-                                <rect key="frame" x="16" y="293.66666666666669" width="384" height="32"/>
+                                <rect key="frame" x="16" y="301.66666666666669" width="384" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="BXf-mq-UFQ"/>
@@ -68,6 +68,7 @@
                             <constraint firstItem="XC6-W5-6sC" firstAttribute="leading" secondItem="aSp-uA-isx" secondAttribute="leading" constant="16" id="EoP-ER-BGf"/>
                             <constraint firstAttribute="bottom" secondItem="56u-2b-oYq" secondAttribute="bottom" id="KAj-1b-FPP"/>
                             <constraint firstItem="6Uj-Pl-Bsn" firstAttribute="leading" secondItem="aSp-uA-isx" secondAttribute="leading" constant="16" id="M7g-nD-oq6"/>
+                            <constraint firstItem="ytg-IX-fgv" firstAttribute="top" secondItem="aSp-uA-isx" secondAttribute="top" constant="8" id="Scf-ic-Rbv"/>
                             <constraint firstItem="56u-2b-oYq" firstAttribute="top" secondItem="XC6-W5-6sC" secondAttribute="bottom" id="afC-yf-R9J"/>
                             <constraint firstItem="mPt-Jn-f7Z" firstAttribute="leading" secondItem="aSp-uA-isx" secondAttribute="leading" constant="16" id="pMZ-7c-9o1"/>
                         </constraints>

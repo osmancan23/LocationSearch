@@ -33,5 +33,6 @@ class PlaceCell: UITableViewCell {
     
     @IBAction func viewDetailTapped(_ sender: UIButton) {
         //TODO: Send to Place Detail Screen with datas (İd ??)
+        let detailView = UIViewController(nibName: "PlaceDetailViewController", bundle: .none) as! PlaceDetailViewController
     }
 }

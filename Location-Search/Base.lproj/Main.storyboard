@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3yO-DW-zzt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qiH-8o-LMj">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -11,13 +11,13 @@
         <!--Location Selection View Controller-->
         <scene sceneID="ZUZ-bq-cvM">
             <objects>
-                <viewController id="QLN-kS-PKz" customClass="LocationSelectionViewController" customModule="Location_Search" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LocationSelectionViewController" id="QLN-kS-PKz" customClass="LocationSelectionViewController" customModule="Location_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sIj-iK-58E">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozw-jx-18U">
-                                <rect key="frame" x="134.66666666666666" y="428" width="122.99999999999997" height="21"/>
+                                <rect key="frame" x="134.66666666666666" y="450" width="122.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,6 +50,7 @@
                             <constraint firstItem="ozw-jx-18U" firstAttribute="centerX" secondItem="tUz-EW-dJB" secondAttribute="centerX" id="w6q-NK-gam"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ASl-6O-PPR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="56x-ot-vHs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,11 +61,11 @@
             <objects>
                 <viewController id="IW0-Tb-KLc" customClass="PlaceListViewController" customModule="Location_Search" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="htx-Yd-WgZ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place List View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sH-1b-sTE">
-                                <rect key="frame" x="139" y="410.66666666666669" width="115" height="21"/>
+                                <rect key="frame" x="139" y="450" width="115" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -121,6 +122,22 @@
             </objects>
             <point key="canvasLocation" x="3046" y="523"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ye5-BO-ELa">
+            <objects>
+                <navigationController id="qiH-8o-LMj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zcu-aM-XMr">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3yO-DW-zzt" kind="relationship" relationship="rootViewController" id="F4Y-fQ-BlB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUp-8R-mip" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1337" y="45"/>
+        </scene>
         <!--Map View Controller-->
         <scene sceneID="mla-av-98c">
             <objects>
@@ -130,16 +147,16 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Kt6-qa-W8e">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="ZyX-KN-VIO">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="703"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="659"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <viewLayoutGuide key="safeArea" id="YDh-1q-O6k"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <searchBar contentMode="redraw" placeholder="Enter location" translatesAutoresizingMaskIntoConstraints="NO" id="5oJ-X7-sWW">
-                                        <rect key="frame" x="0.0" y="703" width="393" height="56"/>
+                                        <rect key="frame" x="0.0" y="659" width="393" height="56"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <outlet property="delegate" destination="3yO-DW-zzt" id="1JY-lu-4Sv"/>
@@ -157,14 +174,16 @@
                             <constraint firstItem="ETT-sT-phn" firstAttribute="bottom" secondItem="Kt6-qa-W8e" secondAttribute="bottom" id="dKo-Fn-ATF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="tqJ-aB-ZWO"/>
                     <connections>
                         <outlet property="googleMapsView" destination="ZyX-KN-VIO" id="lLX-iK-Wdu"/>
                         <outlet property="searchBar" destination="5oJ-X7-sWW" id="9kH-Zd-ZJg"/>
+                        <segue destination="QLN-kS-PKz" kind="push" identifier="mapViewSegue" id="Cg6-24-dw6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EYF-KU-C3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="1"/>
+            <point key="canvasLocation" x="-532" y="44"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="CLb-YM-Lwc">

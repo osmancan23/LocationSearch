@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A43A7E3F0E8F7898BF71B174 /* Pods_Location_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA95559CE9880BC49E83743 /* Pods_Location_Search.framework */; };
 		C4498BB086C3B2A4260ACCE0 /* Pods_Location_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */; };
 		CD136F962BBC537000307ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F952BBC537000307ADE /* AppDelegate.swift */; };
 		CD136F982BBC537000307ADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F972BBC537000307ADE /* SceneDelegate.swift */; };
@@ -86,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43A7E3F0E8F7898BF71B174 /* Pods_Location_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +277,7 @@
 				CD136F8E2BBC537000307ADE /* Sources */,
 				CD136F8F2BBC537000307ADE /* Frameworks */,
 				CD136F902BBC537000307ADE /* Resources */,
+				AB118FA5574961F06F5B3F45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +315,7 @@
 				CD136FAE2BBC537100307ADE /* Sources */,
 				CD136FAF2BBC537100307ADE /* Frameworks */,
 				CD136FB02BBC537100307ADE /* Resources */,
+				7C924AF6FF2684EE578FD388 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -443,6 +443,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7C924AF6FF2684EE578FD388 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Location-Search-Location-SearchUITests/Pods-Location-Search-Location-SearchUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Location-Search-Location-SearchUITests/Pods-Location-Search-Location-SearchUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Location-Search-Location-SearchUITests/Pods-Location-Search-Location-SearchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A111B9F08FBECE3B4CD0DFB7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,6 +480,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB118FA5574961F06F5B3F45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Location-Search/Pods-Location-Search-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Location-Search/Pods-Location-Search-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Location-Search/Pods-Location-Search-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

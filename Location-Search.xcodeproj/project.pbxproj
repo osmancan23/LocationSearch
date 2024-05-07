@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43A7E3F0E8F7898BF71B174 /* Pods_Location_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA95559CE9880BC49E83743 /* Pods_Location_Search.framework */; };
+		C4498BB086C3B2A4260ACCE0 /* Pods_Location_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */; };
 		CD136F962BBC537000307ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F952BBC537000307ADE /* AppDelegate.swift */; };
 		CD136F982BBC537000307ADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F972BBC537000307ADE /* SceneDelegate.swift */; };
 		CD136F9D2BBC537000307ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD136F9B2BBC537000307ADE /* Main.storyboard */; };
@@ -15,11 +17,17 @@
 		CD136FAD2BBC537100307ADE /* Location_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136FAC2BBC537100307ADE /* Location_SearchTests.swift */; };
 		CD136FB72BBC537100307ADE /* Location_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136FB62BBC537100307ADE /* Location_SearchUITests.swift */; };
 		CD136FB92BBC537100307ADE /* Location_SearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136FB82BBC537100307ADE /* Location_SearchUITestsLaunchTests.swift */; };
+		CD5464542BE9016F00C7F4D1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54644E2BE9016F00C7F4D1 /* SearchViewController.swift */; };
+		CD5464552BE9016F00C7F4D1 /* SearchMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5464502BE9016F00C7F4D1 /* SearchMenuModel.swift */; };
+		CD5464562BE9016F00C7F4D1 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5464522BE9016F00C7F4D1 /* SearchTableViewCell.xib */; };
+		CD5464572BE9016F00C7F4D1 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5464532BE9016F00C7F4D1 /* SearchTableViewCell.swift */; };
+		CD5464592BE9018200C7F4D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5464582BE9018200C7F4D1 /* MapViewController.swift */; };
+		CD54645D2BE9018900C7F4D1 /* CoreLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54645B2BE9018900C7F4D1 /* CoreLocationManager.swift */; };
+		CD54645E2BE9018900C7F4D1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54645C2BE9018900C7F4D1 /* ApiManager.swift */; };
 		CDC333612BBD8DE8002D4951 /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333602BBD8DE8002D4951 /* PlaceListViewController.swift */; };
 		CDC333632BBD8DF3002D4951 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333622BBD8DF3002D4951 /* PlaceDetailViewController.swift */; };
-		CDC333652BBD8DFB002D4951 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333642BBD8DFB002D4951 /* SearchViewController.swift */; };
 		CDC333672BBD8E0C002D4951 /* LocationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333662BBD8E0C002D4951 /* LocationSelectionViewController.swift */; };
-		CDC333692BBD8E15002D4951 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333682BBD8E15002D4951 /* MapViewController.swift */; };
+		E372A2555DB82E76ED9FE744 /* Pods_Location_Search_Location_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157578BF36A6ACA70A927C8 /* Pods_Location_Search_Location_SearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00376B9D5B9D36C8A375CED5 /* Pods-Location-SearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-SearchTests.release.xcconfig"; path = "Target Support Files/Pods-Location-SearchTests/Pods-Location-SearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		1157578BF36A6ACA70A927C8 /* Pods_Location_Search_Location_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Location_Search_Location_SearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DF84C5B8294505DE250A60 /* Pods-Location-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search.release.xcconfig"; path = "Target Support Files/Pods-Location-Search/Pods-Location-Search.release.xcconfig"; sourceTree = "<group>"; };
+		7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Location_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBA47B5883874AC63B5CF06 /* Pods-Location-Search-Location-SearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search-Location-SearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-Location-Search-Location-SearchUITests/Pods-Location-Search-Location-SearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEA95559CE9880BC49E83743 /* Pods_Location_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Location_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18C5DF0C15DA85FBC8892A1 /* Pods-Location-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search.debug.xcconfig"; path = "Target Support Files/Pods-Location-Search/Pods-Location-Search.debug.xcconfig"; sourceTree = "<group>"; };
+		CC614F04CFB033EE8B671D91 /* Pods-Location-SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-SearchTests.debug.xcconfig"; path = "Target Support Files/Pods-Location-SearchTests/Pods-Location-SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD136F922BBC537000307ADE /* Location-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD136F952BBC537000307ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD136F972BBC537000307ADE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,11 +68,17 @@
 		CD136FB22BBC537100307ADE /* Location-SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location-SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD136FB62BBC537100307ADE /* Location_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_SearchUITests.swift; sourceTree = "<group>"; };
 		CD136FB82BBC537100307ADE /* Location_SearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_SearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD54644E2BE9016F00C7F4D1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CD5464502BE9016F00C7F4D1 /* SearchMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMenuModel.swift; sourceTree = "<group>"; };
+		CD5464522BE9016F00C7F4D1 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		CD5464532BE9016F00C7F4D1 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		CD5464582BE9018200C7F4D1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "../../../../../LocationSearch/Location-Search/View/Map/MapViewController.swift"; sourceTree = "<group>"; };
+		CD54645B2BE9018900C7F4D1 /* CoreLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationManager.swift; sourceTree = "<group>"; };
+		CD54645C2BE9018900C7F4D1 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		CDC333602BBD8DE8002D4951 /* PlaceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
 		CDC333622BBD8DF3002D4951 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
-		CDC333642BBD8DFB002D4951 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CDC333662BBD8E0C002D4951 /* LocationSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectionViewController.swift; sourceTree = "<group>"; };
-		CDC333682BBD8E15002D4951 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F6B5A46BB477E790906C0375 /* Pods-Location-Search-Location-SearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search-Location-SearchUITests.release.xcconfig"; path = "Target Support Files/Pods-Location-Search-Location-SearchUITests/Pods-Location-Search-Location-SearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43A7E3F0E8F7898BF71B174 /* Pods_Location_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4498BB086C3B2A4260ACCE0 /* Pods_Location_SearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E372A2555DB82E76ED9FE744 /* Pods_Location_Search_Location_SearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A57A6F1CCA6901EB78B7DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA95559CE9880BC49E83743 /* Pods_Location_Search.framework */,
+				1157578BF36A6ACA70A927C8 /* Pods_Location_Search_Location_SearchUITests.framework */,
+				7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78A7018F1C58587DC0774A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C18C5DF0C15DA85FBC8892A1 /* Pods-Location-Search.debug.xcconfig */,
+				63DF84C5B8294505DE250A60 /* Pods-Location-Search.release.xcconfig */,
+				8FBA47B5883874AC63B5CF06 /* Pods-Location-Search-Location-SearchUITests.debug.xcconfig */,
+				F6B5A46BB477E790906C0375 /* Pods-Location-Search-Location-SearchUITests.release.xcconfig */,
+				CC614F04CFB033EE8B671D91 /* Pods-Location-SearchTests.debug.xcconfig */,
+				00376B9D5B9D36C8A375CED5 /* Pods-Location-SearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD136F892BBC537000307ADE = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +139,8 @@
 				CD136FAB2BBC537100307ADE /* Location-SearchTests */,
 				CD136FB52BBC537100307ADE /* Location-SearchUITests */,
 				CD136F932BBC537000307ADE /* Products */,
+				78A7018F1C58587DC0774A5F /* Pods */,
+				3A57A6F1CCA6901EB78B7DAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +157,7 @@
 		CD136F942BBC537000307ADE /* Location-Search */ = {
 			isa = PBXGroup;
 			children = (
+				CD54645A2BE9018900C7F4D1 /* Manager */,
 				CD136FC62BBC54BB00307ADE /* View */,
 				CD136FC52BBC54AD00307ADE /* Base */,
 				CD136F9B2BBC537000307ADE /* Main.storyboard */,
@@ -146,18 +197,56 @@
 		CD136FC62BBC54BB00307ADE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD54644D2BE9016F00C7F4D1 /* Search */,
 				CDC3335F2BBD8DD5002D4951 /* Place */,
-				CDC3335E2BBD8DC7002D4951 /* Search */,
 				CDC3335D2BBD8DBA002D4951 /* LocationSelection */,
 				CDC3335C2BBD8DA3002D4951 /* Map */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
+		CD54644D2BE9016F00C7F4D1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CD54644E2BE9016F00C7F4D1 /* SearchViewController.swift */,
+				CD54644F2BE9016F00C7F4D1 /* Model */,
+				CD5464512BE9016F00C7F4D1 /* View */,
+			);
+			name = Search;
+			path = "../../../../LocationSearch/Location-Search/View/Search";
+			sourceTree = "<group>";
+		};
+		CD54644F2BE9016F00C7F4D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD5464502BE9016F00C7F4D1 /* SearchMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD5464512BE9016F00C7F4D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD5464522BE9016F00C7F4D1 /* SearchTableViewCell.xib */,
+				CD5464532BE9016F00C7F4D1 /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD54645A2BE9018900C7F4D1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CD54645B2BE9018900C7F4D1 /* CoreLocationManager.swift */,
+				CD54645C2BE9018900C7F4D1 /* ApiManager.swift */,
+			);
+			name = Manager;
+			path = "../../../LocationSearch/Location-Search/Manager";
+			sourceTree = "<group>";
+		};
 		CDC3335C2BBD8DA3002D4951 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				CDC333682BBD8E15002D4951 /* MapViewController.swift */,
+				CD5464582BE9018200C7F4D1 /* MapViewController.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -168,14 +257,6 @@
 				CDC333662BBD8E0C002D4951 /* LocationSelectionViewController.swift */,
 			);
 			path = LocationSelection;
-			sourceTree = "<group>";
-		};
-		CDC3335E2BBD8DC7002D4951 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				CDC333642BBD8DFB002D4951 /* SearchViewController.swift */,
-			);
-			path = Search;
 			sourceTree = "<group>";
 		};
 		CDC3335F2BBD8DD5002D4951 /* Place */ = {
@@ -194,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD136FBC2BBC537100307ADE /* Build configuration list for PBXNativeTarget "Location-Search" */;
 			buildPhases = (
+				A111B9F08FBECE3B4CD0DFB7 /* [CP] Check Pods Manifest.lock */,
 				CD136F8E2BBC537000307ADE /* Sources */,
 				CD136F8F2BBC537000307ADE /* Frameworks */,
 				CD136F902BBC537000307ADE /* Resources */,
@@ -211,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD136FBF2BBC537100307ADE /* Build configuration list for PBXNativeTarget "Location-SearchTests" */;
 			buildPhases = (
+				541558A4959814D99B224DE6 /* [CP] Check Pods Manifest.lock */,
 				CD136FA42BBC537100307ADE /* Sources */,
 				CD136FA52BBC537100307ADE /* Frameworks */,
 				CD136FA62BBC537100307ADE /* Resources */,
@@ -229,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD136FC22BBC537100307ADE /* Build configuration list for PBXNativeTarget "Location-SearchUITests" */;
 			buildPhases = (
+				66B0B4DC32576A03888AF56A /* [CP] Check Pods Manifest.lock */,
 				CD136FAE2BBC537100307ADE /* Sources */,
 				CD136FAF2BBC537100307ADE /* Frameworks */,
 				CD136FB02BBC537100307ADE /* Resources */,
@@ -292,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD136FA22BBC537100307ADE /* LaunchScreen.storyboard in Resources */,
+				CD5464562BE9016F00C7F4D1 /* SearchTableViewCell.xib in Resources */,
 				CD136F9F2BBC537100307ADE /* Assets.xcassets in Resources */,
 				CD136F9D2BBC537000307ADE /* Main.storyboard in Resources */,
 			);
@@ -313,18 +398,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		541558A4959814D99B224DE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Location-SearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66B0B4DC32576A03888AF56A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Location-Search-Location-SearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A111B9F08FBECE3B4CD0DFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Location-Search-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD136F8E2BBC537000307ADE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC333652BBD8DFB002D4951 /* SearchViewController.swift in Sources */,
+				CD5464572BE9016F00C7F4D1 /* SearchTableViewCell.swift in Sources */,
 				CDC333672BBD8E0C002D4951 /* LocationSelectionViewController.swift in Sources */,
+				CD5464542BE9016F00C7F4D1 /* SearchViewController.swift in Sources */,
 				CDC333612BBD8DE8002D4951 /* PlaceListViewController.swift in Sources */,
+				CD5464592BE9018200C7F4D1 /* MapViewController.swift in Sources */,
 				CDC333632BBD8DF3002D4951 /* PlaceDetailViewController.swift in Sources */,
+				CD54645E2BE9018900C7F4D1 /* ApiManager.swift in Sources */,
+				CD5464552BE9016F00C7F4D1 /* SearchMenuModel.swift in Sources */,
+				CD54645D2BE9018900C7F4D1 /* CoreLocationManager.swift in Sources */,
 				CD136F962BBC537000307ADE /* AppDelegate.swift in Sources */,
 				CD136F982BBC537000307ADE /* SceneDelegate.swift in Sources */,
-				CDC333692BBD8E15002D4951 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +575,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -480,7 +639,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -501,6 +661,7 @@
 		};
 		CD136FBD2BBC537100307ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18C5DF0C15DA85FBC8892A1 /* Pods-Location-Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -529,6 +690,7 @@
 		};
 		CD136FBE2BBC537100307ADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DF84C5B8294505DE250A60 /* Pods-Location-Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,6 +719,7 @@
 		};
 		CD136FC02BBC537100307ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC614F04CFB033EE8B671D91 /* Pods-Location-SearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -577,6 +740,7 @@
 		};
 		CD136FC12BBC537100307ADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00376B9D5B9D36C8A375CED5 /* Pods-Location-SearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -597,6 +761,7 @@
 		};
 		CD136FC32BBC537100307ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBA47B5883874AC63B5CF06 /* Pods-Location-Search-Location-SearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -615,6 +780,7 @@
 		};
 		CD136FC42BBC537100307ADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B5A46BB477E790906C0375 /* Pods-Location-Search-Location-SearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

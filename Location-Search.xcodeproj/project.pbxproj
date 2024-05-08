@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4498BB086C3B2A4260ACCE0 /* Pods_Location_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */; };
 		CD136F962BBC537000307ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F952BBC537000307ADE /* AppDelegate.swift */; };
 		CD136F982BBC537000307ADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD136F972BBC537000307ADE /* SceneDelegate.swift */; };
 		CD136F9D2BBC537000307ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD136F9B2BBC537000307ADE /* Main.storyboard */; };
@@ -26,7 +25,6 @@
 		CDC333612BBD8DE8002D4951 /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333602BBD8DE8002D4951 /* PlaceListViewController.swift */; };
 		CDC333632BBD8DF3002D4951 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333622BBD8DF3002D4951 /* PlaceDetailViewController.swift */; };
 		CDC333672BBD8E0C002D4951 /* LocationSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC333662BBD8E0C002D4951 /* LocationSelectionViewController.swift */; };
-		E372A2555DB82E76ED9FE744 /* Pods_Location_Search_Location_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157578BF36A6ACA70A927C8 /* Pods_Location_Search_Location_SearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +46,8 @@
 
 /* Begin PBXFileReference section */
 		00376B9D5B9D36C8A375CED5 /* Pods-Location-SearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-SearchTests.release.xcconfig"; path = "Target Support Files/Pods-Location-SearchTests/Pods-Location-SearchTests.release.xcconfig"; sourceTree = "<group>"; };
-		1157578BF36A6ACA70A927C8 /* Pods_Location_Search_Location_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Location_Search_Location_SearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DF84C5B8294505DE250A60 /* Pods-Location-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search.release.xcconfig"; path = "Target Support Files/Pods-Location-Search/Pods-Location-Search.release.xcconfig"; sourceTree = "<group>"; };
-		7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Location_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBA47B5883874AC63B5CF06 /* Pods-Location-Search-Location-SearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search-Location-SearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-Location-Search-Location-SearchUITests/Pods-Location-Search-Location-SearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BEA95559CE9880BC49E83743 /* Pods_Location_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Location_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18C5DF0C15DA85FBC8892A1 /* Pods-Location-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-Search.debug.xcconfig"; path = "Target Support Files/Pods-Location-Search/Pods-Location-Search.debug.xcconfig"; sourceTree = "<group>"; };
 		CC614F04CFB033EE8B671D91 /* Pods-Location-SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Location-SearchTests.debug.xcconfig"; path = "Target Support Files/Pods-Location-SearchTests/Pods-Location-SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD136F922BBC537000307ADE /* Location-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4498BB086C3B2A4260ACCE0 /* Pods_Location_SearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E372A2555DB82E76ED9FE744 /* Pods_Location_Search_Location_SearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,9 +103,6 @@
 		3A57A6F1CCA6901EB78B7DAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEA95559CE9880BC49E83743 /* Pods_Location_Search.framework */,
-				1157578BF36A6ACA70A927C8 /* Pods_Location_Search_Location_SearchUITests.framework */,
-				7DDE99A6031B84EA2A2CF686 /* Pods_Location_SearchTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -709,6 +699,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -738,6 +729,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
